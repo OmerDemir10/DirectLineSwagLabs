@@ -1,0 +1,75 @@
+Test Plan:
+
+Objective: To develop a Regression automated test suite for saucedemo.com 
+that covers the core functionality of the website and can be executed whenever 
+required to reduce the effort in executing the test cases manually.
+
+Scope: The automated test suite will cover the following areas of the website:
+
+Login functionality
+Logout functionality
+Home page functionality
+Shopping cart functionality
+Checkout functionality
+
+Automation Approach:
+
+1-) Framework selection: We will use a .NET Core-based framework for automation testing. 
+The framework will consist of the following components:
+
+    Microsoft.NET.Test.Sdk/17.0.0: The MSbuild targets and properties for building .NET test projects.
+    Selenium WebDriver/4.9.0: for browser automation
+    Selenium Support/4.9.0: This package contains .NET support utilites and classes that users may find useful in using Selenium WebDriver.
+    Selenium Extras Wait Helpers/1.0.2: for using explicit wait
+    NUnit/3.13.2: for test case management and execution
+    Specflow NUnit/3.9.22: for behavior-driven development
+    SpecFlow Assist Dynamic/1.4.2 :Adds support for dynamic instances and sets from SpecFlow tables
+    SpecFlow Plus Living Doc Plugin: A plugin for SpecFlow to generate a shareable HTML Gherkin feature execution report (living documentation). 
+                                     Use together with SpecFlow.Plus.LivingDoc.CLI.
+    Page Object Model: for modular and maintainable test code
+    Singleton Design Pattern: for using same Driver instance
+    HTML Reports: for test execution reports
+    
+2-)Test Case Development: Based on the test cases identified in the test plan, 
+                          we will develop the corresponding automated test cases in C# using the framework components mentioned above.
+
+3-)Page Object Model Implementation: We will implement the Page Object Model to ensure that the test code is modular 
+                                     and maintainable. Each page of the website will have a corresponding page object class 
+                                     that encapsulates the page elements and the page-specific functionality.
+
+4-) Singleton Design Pattern Implementation: We will implement the Singleton Design Pattern to provide same driver instance
+                                             for using it until session ends. So it is easy to maintain.
+5-) Specflow Implementation: We will use Specflow to define the test case steps in a human-readable format. 
+                             The step definitions will be re-used across different page object classes wherever applicable.
+
+6-) Test Execution and Reporting: We will execute the automated test cases using SpecFlow Plus LivingDoc Plugin.
+                                  So we are able to generate a comprehensive html report to see test result with good pie chart.
+                                  Html Reports that will capture the test results and any failures or errors encountered during test execution.
+
+Test Environment:
+
+OS: macOS
+Browser: Google Chrome
+
+
+Login Function
+
+Objective: Verify that the login function works as expected and that the user is able to login with valid credentials, 
+           unable to login with invalid credentials, and see the entered password as bullet signs.
+     
+       
+Logout Function
+
+Objective: This test plan covers the testing of the Logout Function on the home page after the user logs in with valid credentials.
+
+
+HomePageAction
+
+Objective: The objective of this test plan is to verify that a user can add or remove items to the cart list, 
+           inspect items or change items order.
+           
+  
+CartPage
+
+Objective: This test plan aims to validate the functionality of the CartPage on a website, 
+           ensuring that the user can complete the order process with expected results.

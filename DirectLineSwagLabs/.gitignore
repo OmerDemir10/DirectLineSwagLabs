@@ -1,0 +1,21 @@
+# SpecFlow generated files
+*.feature.cs
+TestResult.xml
+TestResult.json
+*.feature.cs.vb
+
+# Build output
+/bin/
+/obj/
+
+# NuGet packages
+/packages/
+
+# JetBrains Rider files
+.idea/
+
+# Mac files
+.DS_Store
+
+# Other
+*.log

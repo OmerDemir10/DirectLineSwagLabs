@@ -68,7 +68,7 @@ Scenario: Verify that user should not be able to login with below credential
 		Then verify that user should be able see entered password as bullet signs
 		
 		
-		# livingdoc feature-folder /Users/omerdemir/RiderProjects/SpecFlow/SwagLabs/Features -o /Users/omerdemir/RiderProjects/SpecFlow/SwagLabs/TestReport
-		# livingdoc test-assembly /Users/omerdemir/RiderProjects/DirectLineSwagLabs/DirectLineSwagLabs/bin/Debug/net6.0/DirectLineSwagLabs.dll -t /Users/omerdemir/RiderProjects/DirectLineSwagLabs/DirectLineSwagLabs/bin/Debug/net6.0/TestExecution.json --output /Users/omerdemir/RiderProjects/DirectLineSwagLabs/DirectLineSwagLabs/TestReport
-		# livingdoc feature-folder /Users/omerdemir/RiderProjects/SpecFlow/SwagLabs --output /Users/omerdemir/RiderProjects/SpecFlow/SwagLabs/TestReport
+		
+	# livingdoc test-assembly /Users/omerdemir/RiderProjects/DirectLineSwagLabs/DirectLineSwagLabs/bin/Debug/net6.0/DirectLineSwagLabs.dll -t /Users/omerdemir/RiderProjects/DirectLineSwagLabs/DirectLineSwagLabs/bin/Debug/net6.0/TestExecution.json --output /Users/omerdemir/RiderProjects/DirectLineSwagLabs/DirectLineSwagLabs/TestReport
+		
 
