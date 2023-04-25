@@ -69,6 +69,6 @@ Scenario: Verify that user should not be able to login with below credential
 		
 		
 		
-	# livingdoc test-assembly /Users/omerdemir/RiderProjects/DirectLineSwagLabs/DirectLineSwagLabs/bin/Debug/net6.0/DirectLineSwagLabs.dll -t /Users/omerdemir/RiderProjects/DirectLineSwagLabs/DirectLineSwagLabs/bin/Debug/net6.0/TestExecution.json --output /Users/omerdemir/RiderProjects/DirectLineSwagLabs/DirectLineSwagLabs/TestReport
+	# livingdoc test-assembly /Users/omerdemir/RiderProjects/SwagLabs/SwagLabs/bin/Debug/net6.0/SwagLabs.dll -t /Users/omerdemir/RiderProjects/SwagLabs/SwagLabs/bin/Debug/net6.0/TestExecution.json --output /Users/omerdemir/RiderProjects/SwagLabs/SwagLabs/TestReport
 		
 
